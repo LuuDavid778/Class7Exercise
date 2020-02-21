@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+}
+
+#app {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#popup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#user_input {
+    display: flex;
+
+}
+
+#h_r {
+    margin-top: 20px;
+}
