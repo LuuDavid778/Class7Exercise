@@ -33,8 +33,7 @@ var data = {
     }
   ]
 };
-
-var qnum = 0;
+ var qnum = 0;
 
 function start() {
   document.querySelector("#app__question__h1").innerText =
