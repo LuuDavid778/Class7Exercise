@@ -1,0 +1,28 @@
+html, body {
+margin: 0;
+}
+
+.borderBox{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+#border{
+    width: 100vw;
+    height: 100vh;
+}
+button{
+    display: flex;
+    font-size: 24px;
+    margin:5px;
+}
+#answer{
+    display: flex;
+    font-size: 24px;
+    margin:5px;
+    text-align: center;
+}
+.hello{
+    display: flex;
+}
