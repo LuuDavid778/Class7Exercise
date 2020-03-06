@@ -2,9 +2,15 @@
 <html lang="en">
   <head>
     <link href="davidstyles.css" rel="stylesheet" />
+    <link href="/healthbar/healthstyles.css" rel="stylesheet"/>
   </head>
   <body>
     <div class="app">
+        <div id="app" onclick="ChangeHealth()">
+            <div id="hpbar">
+              <div id="hpbar__bar"></div>
+            </div>
+          </div>
       <div class="app__question">
         <div id="app__question__h1">What is a dog?</div>
         <div class="app__question__box">
@@ -16,6 +22,7 @@
       </div>
       
     </div>
+    <script src="healthbar/healthjava.js"></script>
     <script src="davidjs.js"></script>
   </body>
 </html>

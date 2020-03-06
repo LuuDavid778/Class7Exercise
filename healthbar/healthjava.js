@@ -1,6 +1,6 @@
 var health_state = {
 
-    width:80
+    width:100
 
 }
 

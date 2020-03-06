@@ -50,10 +50,14 @@ function CheckAnswer() {
     document.querySelector("#app__question__h1").innerText =
       data.questions[data.qnum].title;
     document.body.style.backgroundColor = data.questions[data.qnum].bgcolor;
-  } else {
+  } else {                                     
     document.querySelector("#app__results").innerHTML = "<h1>Incorrect!</h1>";
+    ChangeHealth()
+    if (health_state.width === 0) {
+      alert("You ded!");
+    }
     // alert("Wrong!")
-  }
+  } 
 }
 
 start();
