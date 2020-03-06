@@ -3,16 +3,21 @@
     <head>
         <title>App</title>
         <link href="kozy_app.css" rel="stylesheet">
+        <link href="healthbar/health.css"rel="stylesheet">
     </head>
     <body>
         <div id="app">
+            <div class="health_frame">
+                <div class="health_bar"></div>
+            </div>
             <h1 id="h_q">What comes after A?</h1>
             <div id="popup_style">
                 <input type="text" placeholder="Type your answer here" id="answer"></input>
-                <button onclick="CheckAnswer()">Check Answer</button>
+                <button id="button" onclick="CheckAnswer()">Check Answer</button>
             </div>
             <div id="h_r"></div>
         </div>
         <script src="kozy_js.js"></script>
+        <script src="healthbar/health.js"></script>
     </body>
 </html>

@@ -25,3 +25,8 @@ html, body {
 #h_r {
     margin-top: 20px;
 }
+
+#button {
+    background-color: white;
+    border-radius: 10px;
+}

@@ -1,0 +1,21 @@
+#app {
+    width: 100vw;
+    height: 100vh;
+
+
+}
+.health_frame {
+    width: 450px;
+    height: 80px;
+    border: solid black 2px;
+}
+
+.health_bar {
+    width: 450px;
+    height: 80px;
+    background-color: red;
+    transition: 0.5s;
+
+}
+
+

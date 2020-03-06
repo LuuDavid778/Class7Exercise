@@ -93,6 +93,8 @@ function Start() { //repeat the CheckAnswer function
      } else {
         // alert("WRONG!");
         document.querySelector("#h_r").innerText ="<h1>Wrong!</h1>";
+        ChangeHealth();
+       
      }
  }
  Start();
