@@ -24,7 +24,7 @@ var data= {
         answer:'ME',
         bgcolor:"yellow"
     },
-    {title: "THE END",
+    {title:    "THE END",
     bgcolor:"white"
 }
     ]
